@@ -2,17 +2,6 @@ html, body {
     margin: 0;
     height: 100%;
 }
-@media (max-width: 700px) {
-	.wrapper{
-		flex-direction: column;
-	}
-	.about{
-		width: 100%;
-	}
-	.login{
-		width: 100%;
-	}
-}
 
 html{
 	font-size: 16px;
@@ -116,4 +105,50 @@ li>a:link,li>a:visited{
     padding: 0;
     position: absolute;
     width: 1px;
+}
+@media (max-width: 700px) {
+	.wrapper{
+		flex-direction: column;
+	}
+	.about{
+		width: 90%;
+		padding: 0 0 10vh 0;
+	}
+	.login{
+		width: 90%;
+		padding-bottom: 50px;
+	}
+	nav{
+		margin: 0 auto;
+		width: 95%;
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 20px;
+	}
+}
+@media (max-width: 700px) {
+	.wrapper{
+		flex-direction: column;
+	}
+	.about{
+		width: 90%;
+		padding: 0 0 10vh 0;
+	}
+	.login{
+		width: 90%;
+		padding-bottom: 50px;
+	}
+	nav{
+		margin: 0 auto;
+		width: 95%;
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 355px) {
+	.login{
+		padding-top: 10vh;
+	}
 }
